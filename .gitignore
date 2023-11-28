@@ -1,0 +1,15 @@
+# Ignore system-specific files
+.DS_Store
+
+# Ignore virtual environment
+/venv
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore user-specific IDE files
+*.idea/
+*.vscode/
+
+# Ignore compiled Python bytecode
+*.pyc

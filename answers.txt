@@ -1,0 +1,750 @@
+1.a. A Fight Schedule MAY be scheduled for ONE and only ONE Fighter
+1.b. A Fight Schedule MUST be scheduled for ONE and only ONE Fighter
+1.c. A Fight Schedule MUST be scheduled for ONE or MORE Fighters
+1.d. A Fight Schedule MAY be scheduled for ONE or MORE Fighters
+
+2.a. Insert(RDBMS)
+2.b. Drop(RDBMS)
+2.c. Delete(RDBMS)
+2.d. None of the mentioned
+
+3.a. Reduces data redundancy
+3.b. Prevent data inconsistencies
+3.c. Increases data anomalies
+3.d. Increases data integrity
+
+4.a. Participation
+4.b. Position
+4.c. Role
+4.d. Instance
+
+5.a. Teaches
+5.b. Course
+5.c. Department
+5.d. Section
+
+6.a. Intersection of all the relations
+6.b. Union of all the relations
+6.c. Difference of all the relations
+6.d. Cartesian product of all the relations
+
+7.a. The statement is syntactically wrong
+7.b. It creates a relation with three attributes ownerID, ownername, floor in which floor cannot be null
+7.c. It creates a relation with three attributes ownerID, ownername, floor in which ownerID cannot be null
+7.d. It creates a relation with three attributes ownerID, ownername, floor in which ownername must consist of at least 25 characters
+
+8.a. A super key uniquely identifies a tuple within a relation, while a candidate key is a minimal super key for a relation.
+8.b. A super key is a minimal super key for a relation, while a candidate key uniquely identifies a tuple within a relation.
+8.c. A super key is a combination of attributes that uniquely identifies a tuple within a relation, while a candidate key is a single attribute that uniquely identifies a tuple within a relation.
+8.d. A super key and a candidate key are the same thing in the context of a relational database system.
+
+9.a. The query gives all the studentdatabasename for which marks are greater than all the students in section c
+9.b. The query gives all the studentdatabasename for which the marks are greater than at least on student in section c
+9.c. The query gives all the studentdatabasename for which the marks are less than all the students in section c
+9.d. The query is syntactically incorrect
+
+10.a. Index
+10.b. Reference
+10.c. Assertion
+10.d. Timestamp
+
+11.a. Attributes of common
+11.b. Tuple of common
+11.c. Tuple of distinct
+11.d. Attributes of distinct
+
+12.a. Graph
+12.b. Information
+12.c. Customer
+12.d. Data
+
+13.a. Dept ID should not be used in group by clause
+13.b. Group by clause is not valid in this query
+13.c. Avg(salary) should not be selected
+13.d. None
+
+14.a. A relationship and an attribute are the same thing in a conceptual data model.
+14.b. A relationship represents the properties or characteristics of an entity, while an attribute represents the associations between different entities or tables.
+14.c. A relationship is used to represent the properties of an attribute, while an attribute represents a real-world object or concept.
+14.d. A relationship is a type of attribute, while an attribute is a type of relationship.
+
+15.a. Course_id
+15.b. Course_id,sec_id
+15.c. Room_number
+15.d. Course_id,sec_id,room_number
+
+16.a. The number of rows selected depends on the data in the 'instructor' table and the comparison of salaries.
+16.b. The number of rows selected is 0
+16.c. The number of rows selected is always 10
+16.d. The number of rows selected is 100
+
+17.a. Age, gender
+17.b. Customer
+17.c. Age
+17.d. All the fields of the customer relation
+
+18.a. Staff
+18.b. StaffName
+18.c. Blair Drive
+18.d. P101
+
+19.a. To complicate the database structure
+19.b. To provide a logical representation of existing tables or views
+19.c. To store data separately from the main tables
+19.d. To confuse the database administrators
+
+20.a. Subjectivity
+20.b. Context-dependency
+20.c. Organization
+20.d. Meaningfulness
+
+21.a. To make the database more difficult to use
+21.b. To randomly group data without any logical structure
+21.c. To create a logical structure that accurately represents real-world entities and their relationships.
+21.d. To confuse the database administrators
+
+22.a. A Fighter MUST be assigned ONE or MORE Fight Schedules
+22.b. A Fighter MAY be assigned ONE or MORE Fight Schedules
+22.c. A Fighter MAY be assigned ONE and only ONE Fight Schedule
+22.d. A Fighter MUST be assigned ONE and only ONE Fight Schedule
+
+23.a. Indexes for the tables
+23.b. Actual data in the database
+23.c. Constraints on the data
+23.d. Data types for each column
+
+24.a. The query is correct
+24.b. The query is syntactically wrong because more than one relations are included in the natural join operation
+24.c. The query is syntactically wrong because there are more than one attributes in the select clause
+24.d. The query is syntactically wrong because there is no where clause
+
+25.a. select
+25.b. from
+25.c. with
+25.d. none of the mentioned
+
+26.a. DELETE FROM R WHERE A = value;
+26.b. ALTER TABLE R DROP COLUMN A;
+26.c. UPDATE R SET A = NULL;
+26.d. DROP A FROM R;
+
+27.a. INSERT INTO D (column1, column2, column3) VALUES (a, b, c);
+27.b. CREATE TABLE D (a, b, c);
+27.c. UPDATE D SET a=b, c=d;
+27.d. ADD D (a, b, c) TO DATABASE;
+
+28.a. Data Described Language
+28.b. Data Retrieval Language
+28.c. Data Manipulation Language
+28.d. Data Definition Language
+
+29.a. INSERT COLUMN
+29.b. UPDATE TABLE
+29.c. ALTER TABLE
+29.d. MODIFY TABLE
+
+30.a. No error
+30.b. Year numeric (4,0)
+30.c. Building varchar (15)
+30.d. Sec_id varchar (8)
+
+31.a. NAME
+31.b. ID
+31.c. CITY
+31.d. CITY, ID
+
+32.a. Referential
+32.b. Primary
+32.c. Referencing
+32.d. Specific
+
+33.a. Rows
+33.b. Key
+33.c. Attribute
+33.d. Fields
+
+34.a. foreign key(RDBMS1, RDBMS2) references S
+34.b. foreign key(RDBMS1, RDBMS2)
+34.c. primary key(RDBMS1, RDBMS2, RDBMS3)
+34.d. primary key(RDBMS1)
+
+35.a. RENAME
+35.b. CHANGE
+35.c. AS
+35.d. MODIFY
+
+36.a. Where, from
+36.b. From, select
+36.c. Select, from
+36.d. From, where
+
+37.a. Number of blocks
+37.b. Size of a tuple of a relation
+37.c. Number of tuples
+37.d. All of the mentioned
+
+38.a. Selection
+38.b. Union
+38.c. Multiplication
+38.d. Division
+
+39.a. Object of relation
+39.b. Present working model
+39.c. Thing in real world
+39.d. Model of relation
+
+40.a. True
+40.b. False
+40.c. Partially true
+40.d. Not applicable
+
+41.a. COUNT()
+41.b. EVERAGE()
+41.c. AVERAGE()
+41.d. AVG()
+
+42.a. To uniquely identify each record in a table
+42.b. To establish a link between two tables by referencing the primary key of another table
+42.c. To define the structure of the database
+42.d. To perform complex calculations on the data
+
+43.a. The natural join operation removes duplicate rows from two tables
+43.b. The natural join operation combines columns from two tables based on a common value
+43.c. The natural join operation multiplies the rows of two tables together
+43.d. The natural join operation combines rows from two tables based on a common column between them.
+
+44.a. Subjectivity
+44.b. Context-dependency
+44.c. Organization
+44.d. Meaningfulness
+
+45.a. True
+45.b. False
+45.c. Partially True
+45.d. Partially False
+
+46.a. It gives all values of name, ID, branch from both the relations only if all those attributes are present in both
+46.b. It gives all values of name, ID, branch from their respective relations
+46.c. It gives the values of name, ID, branch from their respective relations where the values in the branch attribute are same
+46.d. It gives the values of name, ID, branch from their respective relations where all the values are matching with each other
+
+47.a. Salary*1.1
+47.b. ID
+47.c. Where
+47.d. Instructor
+
+48.a. One-to-many
+48.b. One-to-one
+48.c. Many-to-many
+48.d. Many-to-one
+
+49.a. The function of the command is to update records in the table 'r' where the condition 'P' is met.
+49.b. The function of the command is to insert new records into the table 'r' where the condition 'P' is met.
+49.c. The function of the command is to retrieve records from the table 'r' where the condition 'P' is met.
+49.d. The function of the command is to delete records from the table 'r' where the condition 'P' is met.
+
+50.a. To make the database more difficult to use
+50.b. To randomly group data without any logical structure
+50.c. To create a logical structure that accurately represents real-world entities and their relationships.
+50.d. To confuse the database administrators
+
+51.a. ALL
+51.b. NOT UNIQUE
+51.c. NOTNULL
+51.d. INCLUDE
+
+52.a. It restricts the length of the column
+52.b. It enforces a unique value in a column
+52.c. It ensures that a column cannot have a null value.
+52.d. It allows a column to have a null value
+
+53.a. Row(s) inserted
+53.b. Error in ID of insert
+53.c. Error in Name of insert
+53.d. Error in Salary of the insert
+
+54.a. Subjectivity
+54.b. Context-dependency
+54.c. Organization
+54.d. Meaningfulness
+
+55.a. To uniquely identify each record in a table
+55.b. To establish a link between two tables
+55.c. To perform mathematical operations on numeric data
+55.d. To define the primary key of a table
+
+56.a. Record
+56.b. Column
+56.c. Tuple
+56.d. Key
+
+57.a. The purpose of the MySQL AUTO_INCREMENT attribute is to delete existing rows in a table.
+57.b. The purpose of the MySQL AUTO_INCREMENT attribute is to update the values in a column.
+57.c. The purpose of the MySQL AUTO_INCREMENT attribute is to sort the rows in a table.
+57.d. The purpose of the MySQL AUTO_INCREMENT attribute is to automatically generate a unique value for a column whenever a new row is inserted into the table.
+
+58.a. Combine Shirt and Shoe details in a single table due to their similar characteristics.
+58.b. Create separate tables for Shirt and Shoe subtypes due to their distinct relationships and differing attributes.
+58.c. Develop one table for all Clothing, Shirt, and Shoe details to streamline database management.
+58.d. Employ a single table for Clothing and individual tables for Shirt and Shoe based on their materials.
+
+59.a. To filter rows based on a specified condition
+59.b. To sort the result set in ascending order
+59.c. To group rows that have the same values into summary rows
+59.d. To filter groups based on a specified condition
+
+60.a. The having clause allows only those tuples that have an average balance of 10000
+60.b. The having clause checks whether the query result is true or not
+60.c. The having clause does not check for any condition
+60.d. None of the mentioned
+
+61.a. Salary, dept_id
+61.b. Employee
+61.c. Salary
+61.d. All the field of employee relation
+
+62.a. Varchar (20)
+62.b. Varchar2 (20)
+62.c. Numeric (12,2)
+62.d. Numeric
+
+63.a. From
+63.b. Distinct
+63.c. Name
+63.d. All
+
+64.a. Tuples with null value
+64.b. Tuples with no null values
+64.c. Tuples with any salary
+64.d. All of the mentioned
+
+65.a. Relations, Attribute
+65.b. Attributes, Relation
+65.c. Tuple, Relation
+65.d. Tuple, Attributes
+
+66.a. To ensure data integrity and enforce referential integrity constraints
+66.b. To create duplicate records in the database
+66.c. To establish a direct connection between two unrelated tables
+66.d. To complicate the database structure
+
+67.a. To make the database more difficult to use
+67.b. To randomly group data without any logical structure
+67.c. To create a logical structure that accurately represents real-world entities and their relationships.
+67.d. To confuse the database administrators
+
+68.a. To make the database more difficult to use
+68.b. To randomly group data without any logical structure
+68.c. To speed up data retrieval and improve query performance
+68.d. To confuse the database administrators
+
+69.a. Alter table teaches include Name;
+69.b. Alter table teaches add Name;
+69.c. Alter table teaches add Name varchar;
+69.d. Alter table teaches add Name varchar(20);
+
+70.a. Unique
+70.b. Not null
+70.c. Both Unique and Not null
+70.d. Either Unique or Not null
+
+71.a. To store data permanently
+71.b. To provide a virtual table based on the result-set of an SQL statement
+71.c. To execute complex queries
+71.d. To define primary keys
+
+72.a. primary key(a1, a2, a3)
+72.b. primary key(a1)
+72.c. foreign key(a1, a2) references S
+72.d. foreign key(a1, a2)
+
+73.a. The query gives all the possible RDBMS names where a finite value exists for ID
+73.b. The query gives the RDBMS names where a finite value exists for ID and it excludes identical names
+73.c. The query gives the names of the RDBMS that have a null ID and it also excludes identical names
+73.d. The query is syntactically wrong
+
+74.a. It retrieves the total number of departments in the 'institute' table.
+74.b. It retrieves a list of unique employee names from the 'institute' table.
+74.c. It retrieves a list of unique department names from the 'institute' table.
+74.d. It retrieves all department names from the 'institute' table.
+
+75.a. By creating separate tables for each subtype
+75.b. By using a technique called encapsulation
+75.c. By ignoring the concept of supertypes and subtypes
+75.d. In a relational database system, organizing supertypes and subtypes involves using a technique called inheritance.
+
+76.a. Subjectivity
+76.b. Context-dependency
+76.c. Organization
+76.d. Rawness
+
+77.a. Test the database for errors
+77.b. Gather and analyze the requirements of the system
+77.c. Implement the database system
+77.d. Create the physical design of the database
+
+78.a. MIN()
+78.b. AVG()
+78.c. COUNT()
+78.d. MAX()
+
+79.a. To filter rows based on specified conditions
+79.b. To sort the result set in ascending order
+79.c. To perform mathematical operations on the result set
+79.d. To join multiple tables together
+
+80.a. To filter rows based on a specified condition
+80.b. To sort the result set in ascending order
+80.c. To group rows that have the same values into summary rows
+80.d. To perform a join operation on multiple tables
+
+81.a. A superkey is a set of attributes that is always a single attribute.
+81.b. A superkey is a set of attributes that can uniquely identify a tuple within a relation.
+81.c. A superkey is a set of attributes that is not related to the primary key of a relation.
+81.d. A superkey is a set of attributes that cannot uniquely identify a tuple within a relation.
+
+82.a. Empty tuple
+82.b. New value
+82.c. Null value
+82.d. Old value
+
+83.a. Relationships are only used in relational databases
+83.b. Relationships represent the associations between different entities or tables.
+83.c. Relationships have no impact on the data model
+83.d. Relationships represent the physical location of the data
+
+84.a. To create a logical structure that accurately represents real-world entities and their relationships.
+84.b. To randomly group data without any logical structure.
+84.c. To confuse the database administrators.
+84.d. To make the database more difficult to use.
+
+85.a. SQL is used to create and manipulate tables in a relational database.
+85.b. SQL is used to design the user interface of a relational database.
+85.c. SQL is not relevant to relational databases.
+85.d. SQL is used to perform mathematical calculations in a relational database.
+
+86.a. Primary key
+86.b. Index key
+86.c. Foreign key
+86.d. Secondary key
+
+87.a. Entity
+87.b. Attribute
+87.c. Relation
+87.d. Model
+
+88.a. A foreign key is a type of key used in cryptography to encrypt data
+88.b. A foreign key is a type of currency used in other countries
+88.c. A foreign key is a column or a set of columns in a table that references the primary key of another table, establishing a link between the two tables.
+88.d. A foreign key is a key used to unlock doors in a foreign country
+
+89.a. To increase data redundancy
+89.b. To complicate the database structure
+89.c. To prevent data inconsistencies
+89.d. To decrease data integrity
+
+90.a. Entity set
+90.b. Attribute set
+90.c. Relation set
+90.d. Entity model
+
+91.a. Relational
+91.b. Structural
+91.c. Procedural
+91.d. Fundamental
+
+92.a. To make the database more difficult to use
+92.b. To randomly group data without any logical structure
+92.c. To create a logical structure that accurately represents real-world entities and their relationships.
+92.d. To confuse the database administrators
+
+93.a. To make the database more difficult to use
+93.b. To create a logical structure that accurately represents real-world entities and their relationships.
+93.c. To randomly group data without any logical structure
+93.d. To confuse the database administrators
+
+94.a. Select * from emp where empid = 10003;
+94.b. Select empid from emp where empid = 10006;
+94.c. Select empid from emp;
+94.d. Select empid where empid = 1009 and lastname = ‘GELLER’;
+
+95.a. DELETE FROM R;
+95.b. ERASE FROM R;
+95.c. DROP FROM R;
+95.d. REMOVE FROM R;
+
+96.a. It decreases the marks of all the students by 90%
+96.b. It increases the marks of all the students by 10%
+96.c. It is syntactically wrong
+96.d. It increases the marks of all the students by 110%
+
+97.a. To uniquely identify a record in a table
+97.b. To establish a link between two tables
+97.c. To store a unique identifier for a record
+97.d. To perform mathematical operations on data
+
+98.a. A foreign key is used to uniquely identify a record in a table.
+98.b. A foreign key is used to establish a link between two tables.
+98.c. A foreign key is used to store duplicate records in a table.
+98.d. A foreign key is not necessary in a relational database.
+
+99.a. Secondary key
+99.b. Foreign key
+99.c. Super key
+99.d. Primary key
+
+100.a. Select name,course_id from teaches,instructor where instructor_id=course_id;
+100.b. Select name, course_id from instructor natural join teaches;
+100.c. Select name, course_id from instructor;
+100.d. Select course_id from instructor join teaches;
+
+101.a. Staff
+101.b. StaffName
+101.c. Blair Drive
+101.d. P101
+
+102.a. Views are database objects.
+102.b. Views Are a logical representation of existing tables or of another view.
+102.c. Views can contain data of their own.
+102.d. Views are not "real" tables.
+
+103.a. A set of possible data values is called a 'range'.
+103.b. A set of possible data values is called a 'variable'.
+103.c. A set of possible data values is called a 'domain'.
+103.d. A set of possible data values is called a 'coefficient'.
+
+104.a. Unique
+104.b. Not null
+104.c. 0
+104.d. Null
+
+105.a. Local Key
+105.b. Primary Key
+105.c. Composite Key
+105.d. Foreign Key
+
+106.a. To ensure that each row in a table is unique
+106.b. To store large amounts of data efficiently
+106.c. To provide a way to link multiple tables together
+106.d. To perform complex calculations on the data
+
+107.a. To establish a link between two tables
+107.b. To uniquely identify a record in a table
+107.c. To store a unique identifier for a record
+107.d. To perform mathematical operations on data
+
+108.a. The purpose of the UNION operator is to delete duplicate rows from the result set
+108.b. The purpose of the UNION operator is to perform a cross join between the result sets
+108.c. The purpose of the UNION operator in a SELECT statement in MySQL is to combine the result sets of two or more SELECT statements into a single result set.
+108.d. The purpose of the UNION operator is to sort the result set in ascending order
+
+109.a. Data can be defined as raw facts and figures that can be processed to obtain information.
+109.b. Data can be defined as abstract concepts and ideas
+109.c. Data can be defined as emotions and feelings
+109.d. Data can be defined as cooked facts and figures
+
+110.a. Delete section;
+110.b. Drop section;
+110.c. Delete from section;
+110.d. Replace section new_table ;
+
+111.a. The price of a computer is considered data.
+111.b. The price of a computer is considered wisdom.
+111.c. The price of a computer is considered knowledge.
+111.d. The price of a computer is considered information.
+
+112.a. The command is used to insert new records into the table 'table_name' where the condition is met.
+112.b. The command is used to update records in the table 'table_name' where the condition is met.
+112.c. The command is used to delete records from the table 'table_name' where the condition is met.
+112.d. The command is used to retrieve records from the table 'table_name' where the condition is met.
+
+113.a. Delete database database_name
+113.b. Delete database_name
+113.c. drop database database_name
+113.d. drop database_name
+
+114.a. Test the database for errors
+114.b. Gather and analyze the requirements of the system
+114.c. Implement the database system
+114.d. Create the physical design of the database
+
+115.a. References
+115.b. Key reference
+115.c. Relating
+115.d. None of the mentioned
+
+116.a. To make the database more difficult to use
+116.b. To randomly group data without any logical structure
+116.c. To create a logical structure that accurately represents real-world entities and their relationships.
+116.d. To improve the speed of data retrieval and query performance
+
+117.a. An attribute and an entity are the same thing in a conceptual data model.
+117.b. An attribute describes the properties or characteristics of an entity, while an entity represents a real-world object or concept.
+117.c. An attribute is used to represent relationships between entities, while an entity represents the properties of an attribute.
+117.d. An attribute is a type of entity, while an entity is a type of attribute.
+
+118.a. The SQL statement 'SELECT DISTINCT' retrieves values from multiple columns in a table.
+118.b. The SQL statement 'SELECT DISTINCT' retrieves values that are not unique from a specified column in a table.
+118.c. The SQL statement 'SELECT DISTINCT' retrieves all values from a specified column in a table.
+118.d. The SQL statement 'SELECT DISTINCT' retrieves unique values from a specified column in a table.
+
+119.a. To randomly group data without any logical structure.
+119.b. To create a logical structure that accurately represents real-world entities and their relationships.
+119.c. To make the database more difficult to use.
+119.d. To organize the result set into groups based on one or more columns.
+
+120.a. To make the database more difficult to use
+120.b. To randomly group data without any logical structure
+120.c. To create a logical structure that accurately represents real-world entities and their relationships.
+120.d. To improve the speed of data retrieval and query performance.
+
+121.a. Table
+121.b. Values
+121.c. Relation
+121.d. Field
+
+122.a. Outer
+122.b. Inner
+122.c. Equi
+122.d. None of the Mentioned
+
+123.a. A primary key is a unique identifier for a record in a table.
+123.b. A primary key is a foreign key in a table.
+123.c. A primary key is a non-unique identifier for a record in a table.
+123.d. A primary key is not required in a relational database.
+
+124.a. To group the result set by the specified column or columns
+124.b. To order the result set by the specified column or columns
+124.c. To filter the result set based on the specified condition
+124.d. To perform a join operation on the result set
+
+125.a. 1009, 1001, 1018
+125.b. 1009, 1018
+125.c. 1001
+125.d. 1018
+
+126.a. Data is qualitative, while information is quantitative
+126.b. Data is raw facts and figures, while information is processed data that has meaning and context.
+126.c. Information is static, while data is dynamic
+126.d. Information is unprocessed, while data is processed
+
+127.a. DEPT_NAME
+127.b. NAME
+127.c. ID
+127.d. All of the mentioned
+
+128.a. Natural joins
+128.b. Theta joins
+128.c. Both the mentioned
+128.d. None of the mentioned
+
+129.a. select
+129.b. from
+129.c. where
+129.d. create
+
+130.a. FILTER
+130.b. WHERE
+130.c. HAVING
+130.d. LIMIT
+
+131.a. To make the database more difficult to use
+131.b. To randomly group data without any logical structure
+131.c. To create a logical structure that accurately represents real-world entities and their relationships.
+131.d. To confuse the database administrators
+
+132.a. One-to-many
+132.b. One-to-one
+132.c. Many-to-many
+132.d. Many-to-one
+
+133.a. CREATE TABLE
+133.b. DELETE FROM
+133.c. UPDATE
+133.d. INSERT INTO
+
+134.a. Adding redundant attributes
+134.b. Not specifying primary keys
+134.c. Removing redundant attributes
+134.d. None of the mentioned
+
+135.a. Attribute
+135.b. Tuple
+135.c. Field
+135.d. Instance
+
+136.a. Insert into employee values (1005,Rach,0);
+136.b. Insert into employee values (1002,Joey,335);
+136.c. Insert into employee values (1007,Ross, );
+136.d. None of the mentioned
+
+137.a. Where
+137.b. Select
+137.c. From
+137.d. Distinct
+
+138.a. Row
+138.b. Column
+138.c. Value
+138.d. Tuple
+
+139.a. select <relation> from <attribute>
+139.b. select <attribute> from <relation>
+139.c. select <tuple> from <relation>
+139.d. select <tuple> from <attribute>
+
+140.a. No action required. Because, by default, all database users can automatically access views.
+140.b. Phil must grant to Mary the SELECT privilege on both the PROPERTY table and PROPERTY_DISPLAY view.
+140.c. Phil should assign the SELECT privilege to Mary for the PROPERTY_DISPLAY view.
+140.d. Phil should IT department to grant SELECT privilege to Mary for the PROPERTY table.
+
+141.a. A type of function in programming languages
+141.b. A specific value in a database table
+141.c. An attribute in the context of a conceptual data model refers to a characteristic or property of an entity.
+141.d. A method for organizing data in a spreadsheet
+
+142.a. Candidate
+142.b. Primary
+142.c. Super
+142.d. Sub
+
+143.a. It is used to sort the result set in ascending order
+143.b. It is used to filter the result set based on a specified condition
+143.c. It is used to group the result set based on one or more columns
+143.d. It is used to perform mathematical operations on the result set
+
+144.a. delete
+144.b. update
+144.c. drop
+144.d. insert
+
+145.a. GROUP BY clause
+145.b. ORDER BY clause
+145.c. Equijoins
+145.d. Cartesian
+
+146.a. 4
+146.b. 10
+146.c. 8
+146.d. 2
+
+147.a. All the values of the databaseid for which section is c and id > 10
+147.b. All the values of the databaseid for which section not c and id > 10
+147.c. All the values of the databaseid for which section is c and id < 10
+147.d. All the values of the databaseid for which section not c and id < 10
+
+148.a. DROP TABLE
+148.b. ERASE TABLE
+148.c. DELETE TABLE
+148.d. REMOVE TABLE
+
+149.a. Clothing, Shirt, and Shoe are all subtypes
+149.b. Clothing is a subtype, Shirt and Shoe are supertypes
+149.c. Clothing is a supertype, Shirt and Shoe are subtypes
+149.d. Shoe is a Cobbler type, Clothing is a Manufacturer type, and Shirt is a Tailor type
+
+150.a. Subjectivity
+150.b. Context-dependency
+150.c. Organization
+150.d. Meaningfulness
+
