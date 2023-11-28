@@ -121,7 +121,7 @@
 121. In the given query which of the keyword has to be inserted? INSERT INTO employee _____ (1002,Joey,2000);
 122. … … … joins are SQL server default
 123. What is the primary key in a relational database?
-124. What is the purpose of the GROUP BY clause in SQL?  SELECT dept_name, avg(salary)FROM instructor GROUP BY dept_name;
+124. What is the purpose of the GROUP BY clause in SQL?  SELECT dept_name, avg(salary) FROM instructor GROUP BY dept_name;
 125. Which of the following employee_id will be displayed for the given query?  SELECT*FROM employee WHERE employee_id>1009;
 126. How does information differ from data?
 127. From the script,  CREATE TABLE department (dept_name VARCHAR (20), building VARCHAR (15), budget NUMBER, PRIMARY KEY (dept_name));  CREATE TABLE course (course_id VARCHAR (7), title VARCHAR (50), dept_name VARCHAR (20), credits NUMERIC (2,0), PRIMARY KEY (course_id), FOREIGN KEY (dept_name) __________ department);  CREATE TABLE instructor (ID VARCHAR (5), name VARCHAR (20) NOT NULL, dept_name VARCHAR (20), salary NUMERIC (8,2), FOREIGN KEY (dept_name) _______ department);  CREATE TABLE SECTION (course_id VARCHAR (8), sec_id VARCHAR (8), semester VARCHAR (6), YEAR NUMERIC (4,0), building VARCHAR (15), room_number VARCHAR (7), time_slot id VARCHAR (4), PRIMARY KEY (course_id, sec_id, semester, YEAR), FOREIGN KEY (_______) ______ course);  CREATE TABLE teaches (ID VARCHAR (5), course_id VARCHAR (8), sec_id VARCHAR (8), semester VARCHAR (6), YEAR NUMERIC (4,0), PRIMARY KEY (ID, course_id, sec_id, semester, YEAR), FOREIGN KEY (course_id, sec_id, semester, YEAR) REFERENCES SECTION, FOREIGN KEY (ID) _______ instructor);  Which of the following can be used as a primary key entry of the instructor relation. 
