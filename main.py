@@ -27,6 +27,7 @@ def main():
             print("invalid input.")
             print("Write your answer in 'a', 'b', 'c', 'd'\n")
         if option_map[input_option.lower()] == correct_options[index]:
+            score += 1
             print("\n\tBingo! Your choice is correct.\n")
         else:
             print("\n\tOops! Your choice is incorrect.")
