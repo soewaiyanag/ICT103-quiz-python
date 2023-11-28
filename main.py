@@ -20,7 +20,12 @@ def main():
         print(question)
         for option in answers[index]:
             print("\t" + option)
-        input_option = input("Choose the correct answer: ")
+        while True:
+            input_option = input("Choose the correct answer: ")
+            if input_option in option_map:
+                break
+            print("invalid input.")
+            print("Write your answer in 'a', 'b', 'c', 'd'\n")
         if option_map[input_option.lower()] == correct_options[index]:
             print("\n\tBingo! Your choice is correct.\n")
         else:
