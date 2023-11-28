@@ -44,7 +44,7 @@
 44. What is the fundamental characteristic of data?
 45. "Order By" clause is used to sort the result set of a query based on specified columns.
 46. What does the following query do?  SELECT name, ID, branch FROM student, department WHERE student.branch = department.branch;
-47. The query given below will not give an error. Which one of the following has to be replaced to get the desired output?  SELECT ID, name, dept name, salary * 1.1 WHEREinstructor;
+47. The query given below will give an error. Which one of the following has to be replaced to get the desired output?  SELECT ID, name, dept name, salary * 1.1 WHERE instructor;
 48. An entity in A is associated with at most one entity in B. An entity in B, however, can be associated with any number (zero or more) of entities in A.
 49. What is the function of the following command? Delete from r where P;
 50. What is the primary purpose of denormalizing a database?
