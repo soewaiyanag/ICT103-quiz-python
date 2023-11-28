@@ -13,7 +13,7 @@ def main():
     questions = txt_to_list('questions.txt')
     answers = group_answers('answers.txt')
     correct_options = [int(option) for option in txt_to_list('correct_options.txt')]
-    incorrect_questions = []
+    score = 0
 
     print("Write your answer in 'a', 'b', 'c', 'd'\n")
     for index, question in enumerate(questions):
@@ -24,11 +24,10 @@ def main():
         if option_map[input_option.lower()] == correct_options[index]:
             print("\n\tBingo! Your choice is correct.\n")
         else:
-            incorrect_questions.append(index)
             print("\n\tOops! Your choice is incorrect.")
             print("\tThe correct answer is:")
             print('\t' + answers[index][correct_options[index]] + '\n')
-
+    print(f"\n\tYour score is {score}/{len(questions)}")
 
 if __name__ == "__main__":
     main()
